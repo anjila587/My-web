@@ -1,140 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean & Brew Coffee Shop</title>
 
-    <title>Purple Coffee</title>
-
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-
 <body>
 
-    <header>
+<!-- ================= NAVBAR ================= -->
 
-        <div class="logo">
-            ☕ Purple Coffee
-        </div>
+<header>
 
-        <nav>
+    <div class="logo">
+        ☕ Bean & Brew
+    </div>
 
-            <a href="#">Home</a>
+    <nav>
 
-            <a href="#">Menu</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
 
-            <a href="#">About</a>
+    </nav>
 
-            <a href="#">Contact</a>
+</header>
 
-        </nav>
+<!-- ================= HOME ================= -->
 
-        <a class="btn" href="#">Order</a>
+<section class="home" id="home">
 
-    </header>
+<div class="content">
 
-    <section class="hero">
+<h1>Fresh Coffee Everyday</h1>
 
-        <div class="left">
+<p>
+Enjoy the best coffee made from premium beans.
+Fresh taste, relaxing atmosphere and delicious snacks.
+</p>
 
-            <h3>Best Coffee In Town</h3>
+<a href="#menu" class="btn">View Menu</a>
 
-            <h1>Fresh Coffee<br>Every Day</h1>
+</div>
 
-            <p>Enjoy delicious coffee with your friends.</p>
+</section>
 
-            <button>Order Now</button>
+<!-- ================= ABOUT ================= -->
 
-        </div>
+<section class="about" id="about">
 
-        <div class="right">
+<h2>About Us</h2>
 
-            <img src="images/coffee.png" alt="Coffee">
+<div class="about-box">
 
-        </div>
+<div class="about-text">
 
-    </section>
+<h3>Welcome to Bean & Brew</h3>
 
-    <section class="menu">
+<p>
 
-        <h2>Popular Menu</h2>
+We are passionate about serving premium coffee made
+from freshly roasted beans.
 
-        <div class="cards">
+Whether you're meeting friends, studying, or relaxing,
+our cozy environment is the perfect place.
 
-            <div class="card">
+</p>
 
-                <img src="images/espresso.jpg">
+</div>
 
-                <h3>Espresso</h3>
+<div class="about-image">
 
-                <p>¥350</p>
+<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800">
 
-            </div>
+</div>
 
-            <div class="card">
+</div>
 
-                <img src="images/latte.jpg">
+</section>
 
-                <h3>Latte</h3>
+<!-- ================= MENU ================= -->
 
-                <p>¥450</p>
+<section class="menu" id="menu">
 
-            </div>
+<h2>Our Menu</h2>
 
-            <div class="card">
+<div class="menu-container">
 
-                <img src="images/cappuccino.jpg">
+<div class="card">
 
-                <h3>Cappuccino</h3>
+<img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600">
 
-                <p>¥500</p>
+<h3>Espresso</h3>
 
-            </div>
+<p>Strong & Rich Coffee</p>
 
-        </div>
+<span>$3.50</span>
 
-    </section>
+</div>
 
-    <section class="about">
+<div class="card">
 
-        <h2>About Us</h2>
+<img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?w=600">
 
-        <p>
+<h3>Cappuccino</h3>
 
-            Purple Coffee serves fresh coffee with love.
+<p>Creamy Milk Coffee</p>
 
-            We want every customer to enjoy a relaxing moment.
+<span>$4.50</span>
 
-        </p>
+</div>
 
-    </section>
+<div class="card">
 
-    <section class="contact">
+<img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600">
 
-        <h2>Contact</h2>
+<h3>Latte</h3>
 
-        <input type="text" placeholder="Your Name">
+<p>Smooth & Delicious</p>
 
-        <input type="email" placeholder="Your Email">
+<span>$4.00</span>
 
-        <textarea placeholder="Message"></textarea>
+</div>
 
-        <button>Send</button>
+<div class="card">
 
-    </section>
+<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600">
 
-    <footer>
+<h3>Mocha</h3>
 
-        <p>©2025 Purple Coffee | Osaka Japan</p>
+<p>Chocolate Coffee</p>
 
-    </footer>
+<span>$5.00</span>
 
-    <script src="script.js"></script>
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1551024709-8f23befc6cf7?w=600">
+
+<h3>Cake</h3>
+
+<p>Fresh Chocolate Cake</p>
+
+<span>$6.00</span>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600">
+
+<h3>Sandwich</h3>
+
+<p>Fresh & Healthy</p>
+
+<span>$4.80</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= GALLERY ================= -->
+
+<section class="gallery" id="gallery">
+
+<h2>Gallery</h2>
+
+<div class="gallery-container">
+
+<img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=600">
+
+<img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=600">
+
+<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600">
+
+<img src="https://images.unsplash.com/photo-1497636577773-f1231844b336?w=600">
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<div class="contact-box">
+
+<div>
+
+<i class="fa-solid fa-location-dot"></i>
+
+<p>Kathmandu, Nepal</p>
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-phone"></i>
+
+<p>+977-98XXXXXXXX</p>
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-envelope"></i>
+
+<p>info@beanbrew.com</p>
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-clock"></i>
+
+<p>Open: 7 AM - 9 PM</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<h3>Bean & Brew Coffee Shop</h3>
+
+<p>
+
+Follow Us
+
+</p>
+
+<div class="social">
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-twitter"></i>
+
+</div>
+
+<p>
+
+© 2026 All Rights Reserved.
+
+</p>
+
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
 
 </body>
-
 </html>
