@@ -1,0 +1,83 @@
+<!-- ================= MENU ================= -->
+
+<section class="menu" id="menu">
+
+<h2>Our Menu</h2>
+
+<div class="menu-container">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600">
+
+<h3>Espresso</h3>
+
+<p>Strong & Rich Coffee</p>
+
+<span>$3.50</span>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?w=600">
+
+<h3>Cappuccino</h3>
+
+<p>Creamy Milk Coffee</p>
+
+<span>$4.50</span>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600">
+
+<h3>Latte</h3>
+
+<p>Smooth & Delicious</p>
+
+<span>$4.00</span>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600">
+
+<h3>Mocha</h3>
+
+<p>Chocolate Coffee</p>
+
+<span>$5.00</span>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1551024709-8f23befc6cf7?w=600">
+
+<h3>Cake</h3>
+
+<p>Fresh Chocolate Cake</p>
+
+<span>$6.00</span>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600">
+
+<h3>Sandwich</h3>
+
+<p>Fresh & Healthy</p>
+
+<span>$4.80</span>
+
+</div>
+
+</div>
+
+</section>
