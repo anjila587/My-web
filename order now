@@ -1,0 +1,24 @@
+<section id="order" class="order">
+
+<h2>Order Coffee</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<select>
+<option>Espresso - ¥350</option>
+<option>Latte - ¥450</option>
+<option>Cappuccino - ¥500</option>
+<option>Mocha - ¥550</option>
+</select>
+
+<input type="number" placeholder="Quantity" min="1">
+
+<button type="submit">Place Order</button>
+
+</form>
+
+</section>
